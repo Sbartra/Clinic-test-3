@@ -220,6 +220,48 @@ body {font-family: Verdana, sans-serif;}
   
 
     <div class="bg-img">
+        
+        <!--Modal box-->
+        <div class="w3-container w3-padding-64 w3-display-middle w3-hide-large w3-hide-medium">
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-black">Book An Appointment Today!</button>
+          
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-black"> 
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                  class="w3-button w3-display-topright">&times;</span>
+                 
+                </header>
+                <div class="w3-container">
+                    <form action="/action_page.php" target="_blank">
+                      <div class="w3-row-padding" style="margin:0 -13px 4px -13px">
+                        <div class="w3-half">
+                          <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                          <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                      </div>
+                      <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Message" required name="Message">
+                      <button class="w3-button w3-small w3-round w3-black w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                      </button>
+                    </form>
+                </div>
+                <footer class="w3-container w3-black">
+                  
+                </footer>
+              </div>
+            </div>
+            </div>
+
+<!--end of modal box-->
+        
+        
+        
+        
+        
         <div class="w3-content w3-display-right w3-container w3-medium" style="max-width:500px">
             
           
