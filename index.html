@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -147,6 +147,9 @@ body {font-family: Verdana, sans-serif;}
 
 
 
+
+
+
         </style>  
     
 
@@ -184,15 +187,15 @@ body {font-family: Verdana, sans-serif;}
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar" style="max-width:1100px">
-    <a href="#" class="w3-bar-item w3-text-black w3-small w3-wide" style="text-decoration: none;">HOME</a>
+    <a href="#" class="w3-bar-item w3-text-black w3-medium w3-wide" style="text-decoration: none;">HOME</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-text-black w3-small" style="text-decoration: none;">ABOUT</a>
-        <a href="#" class="w3-bar-item w3-text-black w3-small" style="text-decoration: none;">OUR TREATMENTS</a>
-      <a href="#pricing" class="w3-bar-item w3-text-black w3-small" style="text-decoration: none;"><i></i> PRICING</a>
-      <a href="#" class="w3-bar-item w3-text-black w3-small" style="text-decoration: none;"><i></i> GALLERY</a>
-      <a href="#contact" class="w3-bar-item w3-text-black w3-small" style="text-decoration: none;"><i></i> CONTACT</a>
-        
+
+        <a href="#about" class="w3-bar-item w3-text-black w3-medium" style="text-decoration: none;">ABOUT</a>
+      <a href="#" class="w3-bar-item w3-text-black w3-medium" style="text-decoration: none;">OUR TREATMENTS</a>
+      <a href="#pricing" class="w3-bar-item w3-text-black w3-medium" style="text-decoration: none;"><i></i> PRICING</a>
+      <a href="#" class="w3-bar-item w3-text-black w3-medium" style="text-decoration: none;"><i></i> GALLERY</a>
+      <a href="#contact" class="w3-bar-item w3-text-black w3-medium" style="text-decoration: none;"><i></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -202,73 +205,69 @@ body {font-family: Verdana, sans-serif;}
   </div>
 </div>
 
+
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-small w3-button">CLOSE X</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-small w3-button">ABOUT</a>
- 
   <a href="#work" onclick="w3_close()" class="w3-bar-item w3-small w3-button">OUR TREATMENTS</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-small w3-button">PRICING</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-small w3-button">GALLERY</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-small w3-button">CONTACT</a>
 </nav>
   
-
+ 
 
     <div class="bg-img">
-        
-        <!--Modal box-->
-        <div class="w3-container w3-padding-64 w3-display-middle w3-hide-large w3-hide-medium">
 
-            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-black"><b>Book An Appointment Today!</b></button>
-          
-            <div id="id01" class="w3-modal">
-              <div class="w3-modal-content w3-card-4">
-                <header class="w3-container w3-black"> 
-                  <span onclick="document.getElementById('id01').style.display='none'" 
-                  class="w3-button w3-display-topright">&times;</span>
-                    <h5>COMPLETE THE FORM</h5>
-                </header>
-                <div class="w3-container">
-                    <form action="/action_page.php" target="_blank" method="POST" data-netlify="true">
-                      <div class="w3-row-padding" style="margin:0 -13px 4px -13px">
-                        <div class="w3-half">
-                          <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Name" required name="Name">
-                        </div>
-                        <div class="w3-half">
-                          <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Email" required name="Email">
-                        </div>
-                      </div>
-                      <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Message" required name="Message">
-                      <button class="w3-button w3-small w3-round w3-black w3-right w3-section" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                      </button>
-                    </form>
+
+<!--Modal box-->
+<div class="w3-container w3-padding-64 w3-display-middle w3-hide-large w3-hide-medium" style="max-width:500px">
+
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-black">Book An Appointment Today!</button>
+  
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-black"> 
+          <span onclick="document.getElementById('id01').style.display='none'" 
+          class="w3-button w3-display-topright">&times;</span>
+          <h5>COMPLETE THE FORM</h5>
+        </header>
+        <div class="w3-container w3-padding-64">
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-row-padding" style="margin:0 -13px 4px -13px">
+                <div class="w3-half">
+                  <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Name" required name="Name">
                 </div>
-                <footer class="w3-container w3-center w3-black">
-                    <p>THANK YOU!</p>
-                </footer>
+                <div class="w3-half">
+                  <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Email" required name="Email">
+                </div>
               </div>
-            </div>
-            </div>
+              <input class="w3-input w3-small w3-round w3-border" type="text" placeholder="Message" required name="Message">
+              <button class="w3-button w3-small w3-round w3-black w3-right w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </form>
+        </div>
+        <footer class="w3-container w3-center w3-black">
+            <p>THANK YOU!</p>
+        </footer>
+      </div>
+    </div>
+    </div>
 
 <!--end of modal box-->
-        
-        
-        
-        
-        
-        <div class="w3-content w3-display-right w3-container w3-hide-small w3-medium" style="max-width:500px">
+
+        <div class="w3-content w3-display-right w3-container w3-medium w3-hide-small" style="max-width:500px">
             
-          
             <div class="w3-row w3-padding-16 w3-section">
               <div class="w3-col m4 w3-container">
                 
               </div>
               <div class="w3-col m8 w3-panel">
                 <div class="w3-medium w3-margin-bottom">
-                  <i class="w3-hover-text-black w3-medium w3-margin-right"></i>Book An
-                  Appointment Today!<br>
+                  <i class="w3-hover-text-black w3-medium w3-margin-right"></i><b>Book An
+                  Appointment Today!</b><br>
                   
                 </div>
               
@@ -292,8 +291,14 @@ body {font-family: Verdana, sans-serif;}
           </div>
       </div>
     
+
+
+
+
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
+
+
 
     <div class="w3-center w3-padding-64" id="about" ><br><br><br>
       <h3 class="w3-center"><b>ABOUT US</b></h3>
@@ -390,7 +395,7 @@ body {font-family: Verdana, sans-serif;}
           <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: mail@mail.com<br>
         </div>
         <p>Book An Appointment Today!</p>
-        <form action="/action_page.php" target="_blank" method="POST" data-netlify="true">
+        <form action="/action_page.php" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-round w3-border" type="text" placeholder="Name" required name="Name">
@@ -515,6 +520,7 @@ body {font-family: Verdana, sans-serif;}
         }
       }
       </script>
+
 
 </body>
 </html>
